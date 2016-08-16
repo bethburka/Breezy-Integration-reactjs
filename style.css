@@ -1,0 +1,127 @@
+
+
+body {
+    font-family: ralewayregular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+@font-face {
+ font-family: 'LAB MEDIUM';
+ src: url('https://mobgen.com/wp-content/themes/brooklyn/css/fonts/Lab-Medium.eot'); /* IE9 Compat Modes */
+ src: url('https://mobgen.com/wp-content/themes/brooklyn/css/fonts/Lab-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+      url('https://mobgen.com/wp-content/themes/brooklyn/css/fonts/Lab-Medium.woff2') format('woff2'), /* Super Modern Browsers */
+      url('https://mobgen.com/wp-content/themes/brooklyn/css/fonts/Lab-Medium.woff') format('woff'), /* Pretty Modern Browsers */
+      url('https://mobgen.com/wp-content/themes/brooklyn/css/fonts/Lab-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+      url('https://mobgen.com/wp-content/themes/brooklyn/css/fonts/Lab-Medium.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+
+
+h1,ul,li,a{
+    color: #222222;
+    text-decoration: none;
+    list-style-type: none;
+}
+a:hover{
+    color: #eb5929;
+}
+h2 ul {
+  text-decoration: none;
+
+}
+p {
+  font-family: 'LAB MEDIUM';
+  font-size:1.5em;
+}
+.position h2{
+background-image: none;
+padding-left: 0;
+margin-left: 0;
+float: left;
+margin-right: 10px;
+text-transform: uppercase;
+margin: 0;
+-ms-word-wrap: break-word;
+word-wrap: break-word;
+font-size: 20px;
+line-height: 24px;
+font-family: 'Gotham';
+background: transparent url(images/icon_news_dot.png) no-repeat left top;
+background-size: 20px;
+padding-left: 50px;
+margin-left: -50px;
+}
+.position {
+    float: none;
+    text-align: left;
+    margin-bottom: 0;
+    /* padding-top: 10px; */
+    /* padding-bottom: 10px; */
+    margin: 0px auto;
+    padding: 25px 10px 30px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #EFEFEF;
+    width: 100%;
+}
+.position span {
+    font-family: 'LAB-MEDIUM';
+    font-size: 25px;
+    float: right;
+}
+
+#position_name {
+  float:left;
+
+}
+
+.delete{
+
+}
+
+#location_name {
+  font-family: 'LAB MEDIUM', Helvetica Neue, Helvetica, Arial, sans-serif;
+  float: right;
+  text-decoration: none;
+}
+.modal-container {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+}
+.form-control {
+  width: 450px;
+  font-size: 20px;
+font-weight: 200;
+display: block;
+border: none;
+border: 1px solid #ddd;
+line-height: 1.2;
+width: 250px;
+outline: none;
+padding: 10px;
+}
+.p-detail{
+font-weight: normal;
+font-size: 24px;
+padding: 0;
+margin-top: 40px;
+margin-bottom: 10px;
+color: #444444;
+}
+button {
+
+display: inline-block;
+font-family:  'ralewayregular', Helvetica Neue, Helvetica, Arial, sans-serif;
+
+font-weight: 200;
+font-size: 20px;
+letter-spacing: 0.5px;
+cursor: pointer;
+color: #ffffff;
+text-decoration: none;
+border: none;
+outline: 0;
+background-color: #eb5929;
+border-radius: 4px;
+padding: 15px 20px;
+font-weight: 200;
+}
